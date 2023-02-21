@@ -1,3 +1,5 @@
+//Ingresar 5 textos cortos y ordenarlos de mas corto a mas largo, en caso de ser iguales ira primero el que tenga mas vocales.
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -29,17 +31,17 @@ void main(){
 				aux = longitud[i];
 				longitud[i] = longitud[j];
 				longitud[j] = aux;
-				strcpy(aux_tex[i], texto[i]);
+				strcpy(aux_tex[0], texto[i]);
 				strcpy(texto[i], texto[j]);
-				strcpy(texto[j], aux_tex[i]);
+				strcpy(texto[j], aux_tex[0]);
 		    } else if (longitud[i] == longitud[j]){
 			    if (vocales[i] > vocales[j]){
 					aux = longitud[i];
 					longitud[i] = longitud[j];
 					longitud[j] = aux;
-					strcpy(aux_tex[i], texto[i]);
+					strcpy(aux_tex[0], texto[i]);
 					strcpy(texto[i], texto[j]);
-					strcpy(texto[j], aux_tex[i]);
+					strcpy(texto[j], aux_tex[0]);
 			    }
 			}
 	    }
@@ -70,3 +72,4 @@ void mostrar_resultado(){
 		puts(texto[i]);
     }
 }
+

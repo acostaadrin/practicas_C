@@ -1,3 +1,5 @@
+//Crear un programa que convierta numeros con base decimal a números binarios.
+
 #include <stdio.h>
 #include <math.h>
 
