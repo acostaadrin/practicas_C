@@ -1,3 +1,10 @@
+/*
+Dado un entero positivo, imprima la posición desde la izquierda donde inicia la secuencia contigua de dígitos binarios "1" más larga.
+No puede convertirse primero n a binario; debe hacerse a la par del procesamiento.
+No debe usar vectores para almacenar los dígitos binarios.
+Puede usar una cadena para imprimir los dígitos binarios.
+*/
+
 #include <stdio.h>
 #include <string.h>
 

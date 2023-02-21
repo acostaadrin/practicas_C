@@ -1,3 +1,5 @@
+//Escribir un metodo que calcule el modulo entre dos numeros ingresados
+
 #include <stdio.h>
 
 int modulo(int a, int b);

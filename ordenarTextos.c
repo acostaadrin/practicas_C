@@ -1,3 +1,5 @@
+//Ordenar 5 textos ingresados sin usar funciones o metodos externos
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
