@@ -30,4 +30,3 @@ void main(){
     // imprimir los resultados
     printf("La suma de las cifras del numero ingresado es: %d", suma);
 }
-
